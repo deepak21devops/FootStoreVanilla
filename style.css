@@ -65,3 +65,123 @@ nav {
   cursor: pointer;
   color: #521945;
 }
+
+.slider {
+}
+
+.sliderWrapper {
+  width: 500vw;
+  display: flex;
+}
+
+.sliderItem {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.sliderImg {
+  z-index: 1;
+}
+
+.sliderTitle {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  font-size: 60px;
+  text-align: center;
+  color: #320a28;
+  z-index: 1;
+}
+
+.sliderPrice {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  font-size: 60px;
+  font-weight: 300;
+  border: 1px solid #23b5d3;
+  color: #23b5d3;
+}
+
+.sliderBtn {
+  position: absolute;
+  right: 10%;
+  top: 85%;
+  font-size: 40px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #001524;
+  color: white;
+  border-radius: 10px;
+}
+
+.sliderBtn:hover {
+  background-color: white;
+  color: #001524;
+}
+
+.sliderBg {
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+  background-color: #23b5d3;
+  position: absolute;
+  top: 3%;
+}
+
+.sliderItem:nth-child(1) .sliderPrice {
+  border: 1px solid #23b5d3;
+  color: #23b5d3;
+}
+.sliderItem:nth-child(2) .sliderPrice {
+  border: 1px solid #f25c54;
+  color: #f25c54;
+}
+.sliderItem:nth-child(3) .sliderPrice {
+  border: 1px solid #084b83;
+  color: #084b83;
+}
+.sliderItem:nth-child(4) .sliderPrice {
+  border: 1px solid #613f75;
+  color: #613f75;
+}
+.sliderItem:nth-child(5) .sliderPrice {
+  border: 1px solid #084b83;
+  color: #084b83;
+}
+
+.sliderItem:nth-child(1) .sliderBg {
+  background-color: #23b5d3;
+}
+.sliderItem:nth-child(2) .sliderBg {
+  background-color: #f25c54;
+}
+.sliderItem:nth-child(3) .sliderBg {
+  background-color: #084b83;
+}
+.sliderItem:nth-child(4) .sliderBg {
+  background-color: #613f75;
+}
+.sliderItem:nth-child(5) .sliderBg {
+  background-color: #23b5d3;
+}
+
+.sliderItem:nth-child(1) .sliderTitle {
+  color: #140d4f;
+}
+
+.sliderItem:nth-child(2) .sliderTitle {
+  color: #2dd881;
+}
+.sliderItem:nth-child(3) .sliderTitle {
+  color: #f8c537;
+}
+.sliderItem:nth-child(4) .sliderTitle {
+  color: #2f394d;
+}
+.sliderItem:nth-child(5) .sliderTitle {
+  color: #922d50;
+}
