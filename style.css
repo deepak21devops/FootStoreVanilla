@@ -67,11 +67,13 @@ nav {
 }
 
 .slider {
+  overflow: hidden;
 }
 
 .sliderWrapper {
   width: 500vw;
   display: flex;
+  transition: all 1s ease-in-out;
 }
 
 .sliderItem {
@@ -184,4 +186,114 @@ nav {
 }
 .sliderItem:nth-child(5) .sliderTitle {
   color: #922d50;
+}
+
+.features {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.featureImg {
+  width: 100px;
+  height: 100px;
+}
+
+.featureItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featureContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featureTitle {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.content {
+  text-align: center;
+  color: gray;
+  width: 70%;
+}
+
+.orders {
+  background-color: whitesmoke;
+  clip-path: polygon(0 19%, 100% 0, 100% 100%, 0% 100%);
+  display: flex;
+  position: relative;
+}
+
+.orderContent {
+  position: absolute;
+  top: 15%;
+  right: 0%;
+  padding: 50px;
+  width: 40%;
+}
+
+.orderTitle {
+  font-size: 50px;
+  font-weight: 900;
+}
+.orderPrice {
+  font-weight: 500;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.orderDesc {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.colors {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.color,
+.size {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.color:last-child {
+  background: black;
+}
+
+.color:first-child {
+  background: blue;
+}
+
+.sizes {
+  display: flex;
+}
+
+.size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.buynow {
+  padding: 10px 15px;
+  float: right;
+  background: black;
+  color: white;
+  border: none;
+  font-weight: 900;
+  font-size: 20px;
 }
